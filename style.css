@@ -28,8 +28,8 @@
 .score {
   color: green;
 }
-.nos_question{
-    color: rgb(11, 196, 252);
+.nos_question {
+  color: rgb(11, 196, 252);
 }
 
 /* style */
@@ -92,11 +92,12 @@ ul li label {
 }
 .submit-btn-container {
   position: absolute;
-  top: 84%;
   height: 50px;
+  bottom: 0;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   /* transform: translate(-50%, -50%); */
   width: 100%;
 }
@@ -118,9 +119,8 @@ ul li label {
     font-size: 17px;
   }
   .score-div.completed h1 {
-  font-size: 17px;
-}
-
+    font-size: 17px;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -133,7 +133,7 @@ ul li label {
   }
   .submit-btn-container {
     position: absolute;
-    top: 87%;
+    /* top: 87%; */
     height: 50px;
     display: flex;
     align-items: center;
