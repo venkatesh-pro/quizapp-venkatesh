@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Venkatesh | countdown timer project</title>
+    <script src="/app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-container">
+            <div class="question-container">
+                <h2 class="question" id="question">
+                    what is my name
+                </h2>
+                <div class="answer-container">
+                   <ul>
+                       <li>
+                            <input type="radio" name="answer" id="a">
+                            <label id='a_text' for="a">18</label>
+                       </li>
+                        <li>
+                            <input type="radio" name="answer" id="b">
+                            <label id='b_text' for="b">19</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="answer" id="c">
+                            <label id='c_text' for="c">20</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="answer" id="d">
+                            <label id='d_text' for="d">21</label>
+                        </li>
+                   </ul>
+                </div>
+            </div>
+            <div class="submit-btn-container">
+                <button class="submit">submit</button>
+            </div>
+        </div>
+        <div class="score-div">
+            <h1>You Answered Correctly at <span class="score"></span>/<span class="nos_question"></span> Question</h1>
+            <div>
+                <button class="reload" onclick="window.location.reload()">Reload</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
